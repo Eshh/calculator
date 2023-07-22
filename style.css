@@ -75,7 +75,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background: linear-gradient(to top, #1cb5e0, #000046);
+  /* background: linear-gradient(to top, white, #000046); */
+  background-color: gray;
   color: #fff;
 }
 
