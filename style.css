@@ -102,6 +102,9 @@ button:focus {
   background: linear-gradient(to bottom, #f00000, #dc281e);
   color: #fff;
 }
+#clear-btn:hover {
+  filter: brightness(80%);
+}
 
 .equal-sign {
   grid-column: -2;
