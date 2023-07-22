@@ -15,7 +15,7 @@ body {
   background: #fff;
   width: 400px;
   border-radius: 12px;
-  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 .calculator-display {
@@ -75,7 +75,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #c9c4c4;
+  background: linear-gradient(to top, #1cb5e0, #000046);
+  color: #fff;
 }
 
 button:hover {
@@ -93,21 +94,19 @@ button:focus {
 }
 
 .operator {
-  background-color: gray;
-  color: white;
+  background: linear-gradient(to right, #c31432, #240b36);
   font-size: 30px;
 }
 
 #clear-btn {
-  background-color: #943343;
+  background: linear-gradient(to bottom, #f00000, #dc281e);
   color: #fff;
 }
 
 .equal-sign {
   grid-column: -2;
   grid-row: 2 / span 4;
-  background-color: green;
-  color: white;
+  background: linear-gradient(to bottom, #52c234, #061700);
 }
 
 @media screen and (max-width: 800px) {
